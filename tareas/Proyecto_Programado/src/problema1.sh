@@ -1,6 +1,6 @@
 #!/bin/bash
 ###Se establece la direccion Path en donde se encuentra el archivo script de problema1
-DATA=/home/sysadmin/Documentos/Proyecto-de-Programacion/problema1/hojasDatos
+DATA=/home/sysadmin/LSX2CarlosRojas/LSX2CALINRV2/tareas/Proyecto_Programado/problema1/hojasDatos
 ###Se establece la ruta de almacenamiento de archivos csv y datos
 
 ###El archivo csv va a poseer la salida de data
