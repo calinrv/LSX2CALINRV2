@@ -1,6 +1,6 @@
 #!/bin/bash
 ###Se establece la direccion Path en donde se encuentra el archivo script de problema1
-DATA=/home/sysadmin/Documentos/Proyecto-de-Programacion/problema1/hojasDatos
+DATA=/home/sysadmin/LSX2CarlosRojas/LSX2CALINRV2/tareas/Proyecto_Programado/problema1/hojasDatos
 ###Se establece la ruta de almacenamiento de archivos csv y datos
 
 ###El archivo csv va a poseer la salida de data
@@ -69,7 +69,7 @@ graficar()
 	set format x "$FMT_X_SHOW"
 	set terminal png
 	set output 'fig1.png'
-	plot "$DATA_DONE" using 1:3 with lines title "sensor1", "$DATA_DONE using 1:4 with linespoints title "sensor2"
+	plot "$DATA_DONE" using 1:3 with lines title "Sensor 1", "$DATA_DONE using 1:4 with linespoints title "Sensor 2"
 
 EOF
 }
